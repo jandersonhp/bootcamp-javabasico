@@ -1,0 +1,36 @@
+// 12:36 aula 2 debugging e exceções em java
+package DebuggingExceptions.dao;
+import java.util.*;
+
+import DebuggingExceptions.exception.UserNotFoundException;
+import DebuggingExceptions.model.UserModel;
+
+public class UserDAO {
+    
+    private long nextId = 1L;
+    
+    private final List<UserModel> models = new ArrayList<>();
+
+    public UserModel save(final UserModel model){
+        model.setId(nextId++);
+        models.add(model);
+        return model;
+    }
+
+    public UserModel update(final UserModel model){
+        var toUpdate = findById(model.getId());
+        return model;
+
+    }
+    
+    public UserModel findById(final long id){
+        var message = String.format("Não existe usuário com o id %s  cadastrado", id);
+        return models.stream()
+            .filter(u -> u.getId() == id)
+            .findFirst()
+            .orElseThrow(() -> new UserNotFoundException(message));
+
+
+    }
+
+}

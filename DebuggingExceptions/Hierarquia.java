@@ -1,7 +1,6 @@
 package DebuggingExceptions;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-public class Main{
+import java.io.*;
+public class Hierarquia{
 public static void main(String[] args) {
     test();
     System.out.println("Terminou");    
