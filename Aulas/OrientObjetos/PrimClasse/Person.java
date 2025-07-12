@@ -1,4 +1,4 @@
-package Aulas.OrientObjetos;
+package Aulas.OrientObjetos.PrimClasse;
 
 public class Person {
 

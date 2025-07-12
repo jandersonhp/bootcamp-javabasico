@@ -1,5 +1,4 @@
-package Aulas.OrientObjetos;
-import java.util.*;
+package Aulas.OrientObjetos.PrimClasse;
 
 public class CriandoPrimClasse{
     public static void main(String[] args){
