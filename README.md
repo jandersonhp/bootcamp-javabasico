@@ -37,3 +37,65 @@ Aqui postarei alguns exercícios e desafios do bootcamp.
 ### 💡 Curiosidade:
 Java segue a lógica “**tudo é classe ou parte de uma classe**”. Até o método `main` está dentro de uma classe!
 
+---
+
+# 🧠 Atalhos úteis do VS Code para Java (Feito por IA)
+
+## 🎯 Refatoração e Edição
+
+| Atalho               | Ação                                                                  |
+|----------------------|-----------------------------------------------------------------------|
+| `F2`                 | Renomear símbolo (variável, método, classe etc.)                     |
+| `Ctrl + .`           | Ações rápidas (ex: criar variável, método, extrair, implementar etc.)|
+| `Alt + Shift + ↓`    | Duplicar linha abaixo                                                |
+| `Alt + Shift + ↑`    | Duplicar linha acima                                                 |
+| `Ctrl + D`           | Selecionar próxima ocorrência da palavra                             |
+| `Ctrl + F2`          | Selecionar **todas** as ocorrências da palavra                       |
+
+---
+
+## 📚 Navegação no código
+
+| Atalho               | Ação                                                      |
+|----------------------|-----------------------------------------------------------|
+| `F12`                | Ir para a **definição** de variável/método/classe         |
+| `Ctrl + Clique`      | Mesmo que F12, mas com o mouse                            |
+| `Ctrl + Shift + O`   | Ver todos os métodos/variáveis do arquivo (Outline)       |
+| `Ctrl + Shift + P`   | Abrir a paleta de comandos (quase tudo que você quiser)   |
+| `Ctrl + P`           | Abrir arquivo rapidamente (digite parte do nome)          |
+
+---
+
+## 🧪 Execução e Terminal
+
+| Atalho               | Ação                                    |
+|----------------------|-----------------------------------------|
+| `Ctrl + F5`          | Rodar programa sem depuração            |
+| `F5`                 | Rodar com depuração                     |
+| `Ctrl + '` (crase)   | Abrir terminal integrado                |
+
+---
+
+## 💄 Organização de Código
+
+| Atalho                  | Ação                                 |
+|-------------------------|--------------------------------------|
+| `Ctrl + K`, `Ctrl + F`  | Indentar / formatar o código         |
+| `Ctrl + Shift + K`      | Excluir a linha atual                |
+
+---
+
+## ✅ Dica para Java:
+
+### 🔧 Gerar Getters e Setters automaticamente:
+
+- Clique com o botão direito dentro da classe
+- Selecione: `Source Action...` → `Generate Getters and Setters`
+
+Ou:
+
+- `Ctrl + Shift + P` → **"Generate Getters and Setters"**
+
+---
+
+📌 **Dica final:** pratique esses atalhos aos poucos. Eles ajudam muito sua produtividade e organização com o tempo!
