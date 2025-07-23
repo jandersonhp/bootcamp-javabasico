@@ -12,6 +12,7 @@ public class ExercTamQuadrado{
         // %d = placeholder para numeros inteiros
         // %n = /n (quebra de linha)
         System.out.printf("A área do quadrado é: %d%n", area);
+        scanner.close();
     }
 
 }

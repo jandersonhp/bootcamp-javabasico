@@ -11,7 +11,7 @@ public class ExercNmIdd {
         var year = scanner.nextInt();
         var age = baseYear - year;
         System.out.printf("Olá, %s sua idade é %s anos \n", name, age);
-
+scanner.close();
     }
 
     

@@ -11,7 +11,8 @@ public class Main {
         var isEmancipated = scanner.nextBoolean();
         var canDrive = idade >= 18 || isEmancipated;
         System.out.printf("Você pode dirigir? %s \n", canDrive);
+    scanner.close();
     }
-
+    
 
 }

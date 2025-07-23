@@ -11,7 +11,7 @@ public class Retangulo {
         var altura = scanner.nextInt();
         var area = base * altura;
         System.out.printf("Area do retângulo: %d%n", area);
-    
+    scanner.close();
     }
 
 }

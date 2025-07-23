@@ -22,11 +22,13 @@ public class ExParImpar {
 
         //Validar se num 2 é maior que o numero 1
         if (num2 <= num1){
+            scanner.close();
             System.out.println("O segundo número deve ser maior que o primeiro.");
             return;
             
+            
         }
-
+scanner.close();
         System.out.println("Escolha entre par ou impar para ver os números equivalentes no intervalo dos dois números escolhidos");
         //scanner.nextLine pra limpar o buffer após o nextInt
         scanner.nextLine();

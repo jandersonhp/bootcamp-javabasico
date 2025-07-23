@@ -12,5 +12,6 @@ public class Idade {
         System.out.printf("A diferença de idade é de: %d%n ", diferenca);
         // Math.abs pra não dar número negativo
         System.out.printf("A diferença de idade é de: %d%n", Math.abs(p1 - p2));
+        scanner.close();
     }
 }

@@ -7,7 +7,7 @@ public class OrdenacaoPessoa {
 
     //Construtor
     public OrdenacaoPessoa() {
-        this.pessoaList = pessoaList = new ArrayList<>();
+        
     }
 
     public void adicionarPessoa(String nome, int idade, double altura){
